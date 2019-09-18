@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/welcome.css">
+    <title>Welcome</title>
+</head>
+<body>
+  <div>
+      <h1 style="font-size:5vw" id="welcome"></h1>
+    <div class="toast-body">
+      Modern space
+    </div>
+  </div>
+  <script type="text/javascript" src="../../backend/signin.js"></script>
+  <script type="text/javascript" src="../../backend/login.js"></script>
+  <script type="text/javascript">
+
+    console.log(regName);
+
+    document.getElementById('welcome').innerHTML = `Welcome ${regName}!`
+  </script>
+</body>
+</html>

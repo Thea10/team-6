@@ -1,0 +1,93 @@
+
+header, form{
+    background-color: #ffffff;
+}
+
+form{
+    min-width: 40%;
+    box-shadow: rgba(0,0,0,0.2) 0px 0px 10px;
+}
+
+form h3{
+     font-size: 2.15em;
+     font-weight: bolder;
+     text-align: center;
+}
+
+a{
+    color: #000000;
+}
+ h6{
+  color: rgba(0,0,0,0.4);
+  text-align: center;
+}
+small a{
+   color:  #2d2d2d;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #5a6268;
+}
+
+label{
+    font-size: 0.9em;
+    font-weight: bolder;
+}
+
+.form-control{
+    padding: 25px;
+    border-radius: 0px;
+}
+
+form .btn{
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    margin-bottom: 7rem;
+    padding: 15px;
+    border-radius: 0px;
+}
+
+form .btn:hover {
+    color: #000000;
+    background-color: #ffffff;
+    outline-color: #5a6268;
+}
+
+.toggle-password {
+  position: relative;
+}
+
+.fa-eye {
+  position: absolute;
+  right: 10px;
+  top: 48px;
+}
+
+#pass-error, #email-error {
+  color: red;
+}
+
+.container img{
+    width: 50%;
+}
+
+
+footer{
+    background: rgba(0,0,0);
+}
+footer h6{
+  color: #ffffff;
+}
+
+@media (max-width:575px) {
+    form{
+        min-width: 100%;
+    }
+
+    .container img{
+        display: none;
+    }
+
+}
